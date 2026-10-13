@@ -13,6 +13,9 @@
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
 #
+# macOS
+.DS_Store
+
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -32,7 +35,8 @@
 /[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
-/[Rr]ecordings/
+/[Rr]ecordings/*
+!/[Rr]ecordings/playtest.mp4
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
